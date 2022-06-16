@@ -1,0 +1,181 @@
+{
+  "storesNearMe" : [
+    {
+      "name" : "Big Bazaar",
+      "discount" : "20%",
+      "category": "groceries",
+      "items" : ["shoes", "Utensils", "Household Items"],
+      "offerEnds" : "20 September 2021",
+      "coords" : {
+        "lat": 18.0191212,
+        "lng": 79.5512121
+      }
+    },
+    {
+      "name": "Reliance Smart",
+      "discount": "15%",
+      "category": "groceries",
+      "items": ["shoes", "Utensils", "Household Items"],
+      "offerEnds": "30 September 2021",
+      "coords" : {
+        "lat": 18.0191212,
+        "lng": 79.5232121
+      }
+    },
+    {
+      "name": "More",
+      "discount": "25%",
+      "category": "groceries",
+      "items": ["shoes", "Utensils", "Household Items"],
+      "offerEnds": "25 September 2021",
+      "coords" : {
+        "lat": 18.0191212,
+        "lng": 79.4412121
+      }
+    },
+    {
+      "name": "DMart",
+      "discount": "20%",
+      "category": "groceries",
+      "items": ["shoes", "Utensils", "Household Items"],
+      "offerEnds": "20 September 2021",
+      "coords" : {
+        "lat": 18.0191212,
+        "lng": 79.3312121
+      }
+    },
+    {
+      "name": "Green Bawarchi",
+      "discount": "20%",
+      "category": "restaurants",
+      "items": ["Staters", "Main Course", "Desearts"],
+      "offerEnds": "20 September 2021",
+      "coords" : {
+        "lat": 18.019548211195975,
+        "lng":  79.54936265945436
+      }
+    },
+    {
+      "name": "Green Park",
+      "discount": "18%",
+      "category": "restaurants",
+      "items": ["Staters", "Main Course", "Desearts"],
+      "offerEnds": "20 September 2021",
+      "coords" : {
+        "lat": 18.017691328625993,
+        "lng":  79.55271005630495
+      }
+    },
+    {
+      "name": "Khadai",
+      "discount": "15%",
+      "category": "restaurants",
+      "items": ["Staters", "Main Course", "Desearts"],
+      "offerEnds": "20 September 2021",
+      "coords" : {
+        "lat": 18.023731226579148,
+        "lng": 79.5468306541443
+      }
+    },
+    {
+      "name": "Kursheed",
+      "discount": "25%",
+      "category": "restaurants",
+      "items": ["Staters", "Main Course", "Desearts"],
+      "offerEnds": "20 September 2021",
+      "coords" : {
+        "lat": 18.02483307751232,
+        "lng": 79.54670190811159
+      }
+    },
+    {
+      "name": "Lucky Fashions",
+      "discount": "25%",
+      "category": "clothes",
+      "items": ["Kurthas", "pyjamas", "Jeans", "Shirts", "T-Shirts"],
+      "offerEnds": "20 September 2021",
+      "coords" : {
+        "lat": 18.03652451536251,
+        "lng": 79.53749656677248
+      }
+    },
+    {
+      "name": "Ramraj Fashions",
+      "discount": "25%",
+      "category": "clothes",
+      "items": ["Kurthas", "pyjamas", "Jeans", "Shirts", "T-Shirts"],
+      "offerEnds": "20 September 2021",
+      "coords" : {
+        "lat": 18.069023853806318,
+        "lng": 79.51980471611024
+      }
+    },
+    {
+      "name": "KLM Fashions",
+      "discount": "25%",
+      "category": "clothes",
+      "items": ["Kurthas", "pyjamas", "Jeans", "Shirts", "T-Shirts"],
+      "offerEnds": "20 September 2021",
+      "coords" : {
+        "lat": 18.05070928756082,
+        "lng": 79.51748728752138
+      }
+    },
+    {
+      "name": "Reliance Trends",
+      "discount": "25%",
+      "category": "clothes",
+      "items": ["Kurthas", "pyjamas", "Jeans", "Shirts", "T-Shirts"],
+      "offerEnds": "20 September 2021",
+      "coords" : {
+        "lat": 17.96060815781901,
+        "lng": 79.60045337677003
+      }
+    },
+    {
+      "name": "Dell Store",
+      "discount": "25%",
+      "category": "electronics",
+      "items": ["Kurthas", "pyjamas", "Jeans", "Shirts", "T-Shirts"],
+      "offerEnds": "20 September 2021",
+      "coords" : {
+        "lat": 17.97571240175261,
+        "lng": 79.6071481704712
+      }
+    },
+    {
+      "name": "Apple Store",
+      "discount": "25%",
+      "category": "electronics",
+      "items": ["Kurthas", "pyjamas", "Jeans", "Shirts", "T-Shirts"],
+      "offerEnds": "20 September 2021",
+      "coords" : {
+        "lat": 17.979263752644552,
+        "lng": 79.60088253021242
+      }
+    },
+    {
+      "name": "Anil Electronics",
+      "discount": "25%",
+      "category": "electronics",
+      "items": ["Kurthas", "pyjamas", "Jeans", "Shirts", "T-Shirts"],
+      "offerEnds": "20 September 2021",
+      "coords" : {
+        "lat": 17.98636624011826,
+        "lng": 79.5992946624756
+      }
+    },
+    {
+      "name": "Bajaj Electronics",
+      "discount": "25%",
+      "category": "electronics",
+      "items": ["Kurthas", "pyjamas", "Jeans", "Shirts", "T-Shirts"],
+      "offerEnds": "20 September 2021",
+      "coords" : {
+        "lat": 17.984570235799776,
+        "lng": 79.60380077362062
+      }
+    }
+  ]
+}
+  

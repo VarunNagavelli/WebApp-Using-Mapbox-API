@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application</title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css" type="text/css">
+    <link href='reset.css' rel='stylesheet'/>
+    <link href='styles.css' rel='stylesheet'/>
+</head>
+<body>
+    <header>
+    </header>
+
+    <main>
+        <section>
+            <div id='map'></div>
+            <div class="formInput">
+                <form>
+                    <ul>
+                        <li><label for="radius">Radius</label></li>
+                        <li><input type="number" name="radius" id="radius" min="1" max="6371" placeholder="Enter Radius"/></li>
+                    </ul>
+                    <ul>
+                        <li><label for="category">Category</label></li>
+                        <li>
+                            <select name="category" id="category">
+                                <option value="restaurants">Restaurants </option>
+                                <option value="clothes">Clothes</option>
+                                <option value="groceries">Groceries</option>
+                                <option value="electronics">Electronics</option>
+                                <option value="shoes">Shoes</option>
+                                <option value="All" selected>All</option>
+                            </select>
+                        </li>                        
+                    </ul>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+    <script src="js/map.js"></script>
+    <script src="js/data-plotter.js"></script>
+</body>
+</html>

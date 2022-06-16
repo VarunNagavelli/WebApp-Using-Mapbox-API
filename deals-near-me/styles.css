@@ -1,0 +1,122 @@
+#map {
+    position: absolute;
+    width: 100vw; 
+    height: 100vh;
+}
+
+.homeMarker {
+    background-image: url('location-pointer.png');
+}
+
+.restaurants, .clothes, .homeMarker, .groceries, .electronics, .storeMarker {
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.restaurants {
+    background-image: url('images/Restaurants.png');
+}
+
+.clothes {
+    background-image: url('images/Clothes.png');
+}
+
+.groceries {
+    background-image: url('images/Groceries.png');
+}
+
+.electronics {
+    background-image: url('images/Electronics.png');
+}
+
+.shoes {
+    background-image: url('images/shoes.png');
+}
+
+.storeMarker {
+    background-image: url('store-pointer.png');
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mapboxgl-ctrl-bottom-left, .mapboxgl-ctrl-bottom-right {
+  display: none;
+}
+
+.formInput {
+    border: 1px solid rgba(0, 0, 0, .2);
+    background-color: rgb(255, 255, 255);
+    width: 18%;
+    position: relative;
+    text-align: center;
+    padding: 1em;
+    margin-left: 78%;
+    top: .75em;
+}
+
+.formInput form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formInput form ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.formInput form ul li {
+    padding: 4px;
+}
+
+.formInput form input, .formInput form select {
+    width: 100%;
+    letter-spacing: .5px;
+    padding: .25em;
+}
+
+
+@media (max-width: 770px) {
+    .formInput {
+        width: 25%;
+        margin-left: 70%;
+    }
+    .formInput form ul {
+        flex-direction: column;
+        text-align: left;        
+    }
+}
+
+@media (max-width: 430px) {
+    .formInput {
+        width: 33%;
+        margin-left: 56%;
+    }
+    .formInput form ul label{
+        display: none;      
+    }
+}
+
+@media (max-width: 375px) {
+    .formInput {
+        width: 38%;
+        margin-left: 50%;
+    }
+}
+
+@media (max-width: 320px) {
+    .formInput {
+        width: 44%;
+        margin-left: 42%;
+    }
+}
